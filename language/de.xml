@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="de">
+    <import>
+        <category name="rp.acp.item">
+            <item name="rp.acp.item.database.swtor_torcommunity"><![CDATA[Tor Community (SWTOR)]]></item>
+        </category>
+    
+        <category name="rp.character">
+            <item name="rp.character.category.swtor.equipment"><![CDATA[Ausrüstung]]></item>
+            <item name="rp.character.swtor.fightStyle0"><![CDATA[1. Kampfstil]]></item>
+            <item name="rp.character.swtor.fightStyle1"><![CDATA[2. Kampfstil]]></item>
+            <item name="rp.character.swtor.fightStyleEnable"><![CDATA[Kampfstil aktivieren]]></item>
+            <item name="rp.character.swtor.fightStyle.about"><![CDATA[Kampfstil Informationen]]></item>
+            <item name="rp.character.swtor.implants"><![CDATA[Implantate]]></item>
+            <item name="rp.character.swtor.implants.0"><![CDATA[Keine Implantate]]></item>
+            <item name="rp.character.swtor.implants.1"><![CDATA[1 Implantat]]></item>
+            <item name="rp.character.swtor.implants.2"><![CDATA[2 Implantate]]></item>
+            <item name="rp.character.swtor.itemLevel"><![CDATA[Gegenstandsstufe]]></item>
+            <item name="rp.character.swtor.level"><![CDATA[Stufe]]></item>
+            <item name="rp.character.swtor.upgradeBlue"><![CDATA[Aufwertung 73]]></item>
+            <item name="rp.character.swtor.upgradeBlue.description"><![CDATA[Anzahl an blauen Aufwertungen.]]></item>
+            <item name="rp.character.swtor.upgradeGold"><![CDATA[Aufwertung 77]]></item>
+            <item name="rp.character.swtor.upgradeGold.description"><![CDATA[Anzahl an goldenen Aufwertungen.]]></item>
+            <item name="rp.character.swtor.upgradePurple"><![CDATA[Aufwertung 74]]></item>
+            <item name="rp.character.swtor.upgradePurple.description"><![CDATA[Anzahl an lila Aufwertungen.]]></item>
+        </category>
+        
+        <category name="rp.classification">
+            <item name="rp.classification.swtor.assassin"><![CDATA[Sith-Attentäter]]></item>
+            <item name="rp.classification.swtor.commando"><![CDATA[Kommando]]></item>
+            <item name="rp.classification.swtor.guardian"><![CDATA[Jedi-Hüter]]></item>
+            <item name="rp.classification.swtor.gunslinger"><![CDATA[Revolverheld]]></item>
+            <item name="rp.classification.swtor.juggernaut"><![CDATA[Sith-Juggernaut]]></item>
+            <item name="rp.classification.swtor.marauder"><![CDATA[Sith-Marodeur]]></item>
+            <item name="rp.classification.swtor.mercenary"><![CDATA[Söldner]]></item>
+            <item name="rp.classification.swtor.operative"><![CDATA[Saboteur]]></item>
+            <item name="rp.classification.swtor.powertech"><![CDATA[Powertech]]></item>
+            <item name="rp.classification.swtor.sage"><![CDATA[Jedi-Gelehrter]]></item>
+            <item name="rp.classification.swtor.scoundrel"><![CDATA[Schurke]]></item>
+            <item name="rp.classification.swtor.sentinel"><![CDATA[Jedi-Wächter]]></item>
+            <item name="rp.classification.swtor.shadow"><![CDATA[Jedi-Schatten]]></item>
+            <item name="rp.classification.swtor.sniper"><![CDATA[Scharfschütze]]></item>
+            <item name="rp.classification.swtor.sorcerer"><![CDATA[Sith-Hexer]]></item>
+            <item name="rp.classification.swtor.vanguard"><![CDATA[Frontkämpfer]]></item>
+        </category>
+    
+        <category name="rp.faction">
+            <item name="rp.faction.swtor.imperial"><![CDATA[Imperium]]></item>
+            <item name="rp.faction.swtor.republic"><![CDATA[Galaktische Republic]]></item>
+        </category>
+    
+        <category name="rp.game">
+            <item name="rp.game.swtor"><![CDATA[Star Wars: The Old Republic]]></item>
+        </category>
+    
+        <category name="rp.race">
+            <item name="rp.race.swtor.cathar"><![CDATA[Cathar]]></item>
+            <item name="rp.race.swtor.chiss"><![CDATA[Chiss]]></item>
+            <item name="rp.race.swtor.cyborg"><![CDATA[Cyborg]]></item>
+            <item name="rp.race.swtor.human"><![CDATA[Mensch]]></item>
+            <item name="rp.race.swtor.miraluka"><![CDATA[Miraluka]]></item>
+            <item name="rp.race.swtor.mirialan"><![CDATA[Mirialaner]]></item>
+            <item name="rp.race.swtor.nautolaner"><![CDATA[Nautolaner]]></item>
+            <item name="rp.race.swtor.rattataki"><![CDATA[Rattataki]]></item>
+            <item name="rp.race.swtor.sith"><![CDATA[Sith]]></item>
+            <item name="rp.race.swtor.togruta"><![CDATA[Togruta]]></item>
+            <item name="rp.race.swtor.twilek"><![CDATA[Twilek]]></item>
+            <item name="rp.race.swtor.zabrak"><![CDATA[Zabrak]]></item>
+        </category>
+    
+        <category name="rp.role">
+            <item name="rp.role.swtor.damagedealer"><![CDATA[Schaden]]></item>
+            <item name="rp.role.swtor.heal"><![CDATA[Heiler]]></item>
+            <item name="rp.role.swtor.tank"><![CDATA[Tank]]></item>
+        </category>
+    
+        <category name="rp.server">
+            <item name="rp.server.swtor.group.de"><![CDATA[Europäische Server]]></item>
+            <item name="rp.server.swtor.group.us"><![CDATA[US-Server]]></item>
+        
+            <item name="rp.server.swtor.darthmalgus"><![CDATA[Darth Malgus]]></item>
+            <item name="rp.server.swtor.sateleshan"><![CDATA[Satele Shan]]></item>
+            <item name="rp.server.swtor.starforge"><![CDATA[Star Forge]]></item>
+            <item name="rp.server.swtor.theleviathan"><![CDATA[The Leviathan]]></item>
+            <item name="rp.server.swtor.tulakhord"><![CDATA[Tulak Hord]]></item>
+        </category>
+    </import>
+</language>
