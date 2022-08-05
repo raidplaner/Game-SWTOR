@@ -11,3 +11,11 @@
         margin-top: 20px;
     }
 }
+
+.swtorServerStatus {
+    text-align: center;
+    
+    .swtorServerStatusTitle {
+        @include wcfFontBold;
+    }
+}
