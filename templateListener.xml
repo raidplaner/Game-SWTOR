@@ -20,11 +20,19 @@
             <eventname>about</eventname>
             <templatecode><![CDATA[{include file='__swtorCharacterProfileAbout' application='rp'}]]></templatecode>
         </templatelistener>
+        <templatelistener name="eventRaidConditions">
+            <environment>user</environment>
+            <templatename>event</templatename>
+            <eventname>eventRaidConditions</eventname>
+            <templatecode><![CDATA[{include file='__swtorEventRaidConditions' application='rp'}]]></templatecode>
+        </templatelistener>
+    </import>
+    
+    <delete>
         <templatelistener name="eventBeforeHeader">
             <environment>user</environment>
             <templatename>event</templatename>
             <eventname>beforeHeader</eventname>
-            <templatecode><![CDATA[{include file='__swtorEventBeforeHeader' application='rp'}]]></templatecode>
         </templatelistener>
-    </import>
+    </delete>
 </data>
