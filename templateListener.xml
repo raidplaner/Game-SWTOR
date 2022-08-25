@@ -27,12 +27,4 @@
             <templatecode><![CDATA[{include file='__swtorEventRaidConditions' application='rp'}]]></templatecode>
         </templatelistener>
     </import>
-    
-    <delete>
-        <templatelistener name="eventBeforeHeader">
-            <environment>user</environment>
-            <templatename>event</templatename>
-            <eventname>beforeHeader</eventname>
-        </templatelistener>
-    </delete>
 </data>
