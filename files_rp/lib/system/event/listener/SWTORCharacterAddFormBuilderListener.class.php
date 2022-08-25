@@ -171,7 +171,7 @@ class SWTORCharacterAddFormBuilderListener implements IParameterizedEventListene
                     ->label('rp.character.swtor.itemLevel')
                     ->required()
                     ->minimum(1)
-                    ->maximum(330)
+                    ->maximum(340)
                     ->value(0)
                     ->addDependency(
                     NonEmptyFormFieldDependency::create('fightStyleEnable' . $i)

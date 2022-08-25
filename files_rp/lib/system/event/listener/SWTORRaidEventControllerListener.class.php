@@ -155,7 +155,7 @@ class SWTORRaidEventControllerListener implements IParameterizedEventListener
                 IntegerFormField::create('requiredItemLevel')
                 ->label('rp.character.swtor.itemLevel')
                 ->minimum(0)
-                ->maximum(330)
+                ->maximum(340)
                 ->value(0),
                 SingleSelectionFormField::create('requiredImplants')
                 ->label('rp.character.swtor.implants')
