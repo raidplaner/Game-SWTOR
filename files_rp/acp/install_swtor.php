@@ -16,10 +16,10 @@ use wcf\util\StringUtil;
  * @license Raidplaner License <https://daries.dev/licence/raidplaner.txt>
  */
 // Default Rank
-$sql = "INSERT INTO rp" . WCF_N . "_rank
+$sql = "INSERT INTO rp1_rank
                     (rankName, gameID, showOrder, isDefault)
         VALUES      (?, ?, ?, ?)";
-$statement = WCF::getDB()->prepareStatement($sql);
+$statement = WCF::getDB()->prepare($sql);
 $statement->execute([
     'Default',
     GameCache::getInstance()->getGameByIdentifier('swtor')->gameID,
