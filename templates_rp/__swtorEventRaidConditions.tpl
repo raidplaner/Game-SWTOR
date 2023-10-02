@@ -1,4 +1,4 @@
-{if $event->getController()->getObjectTypeName() == 'info.daries.rp.event.raid'}
+{if $event->getController()->getObjectTypeName() == 'dev.daries.rp.event.raid'}
     {if $event->requiredLevel}
         <dt>{lang}rp.character.level{/lang}</dt>
         <dd>{@$event->requiredLevel}</dd>

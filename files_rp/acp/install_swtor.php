@@ -108,7 +108,7 @@ function insertLanguageItem(int $id, array $name)
                 'languageItem' => 'rp.raid.event.event' . $id,
                 'languageItemValue' => StringUtil::trim($name[$language->languageCode]),
                 'languageCategoryID' => (LanguageFactory::getInstance()->getCategory('rp.raid.event'))->languageCategoryID,
-                'packageID' => PackageCache::getInstance()->getPackageID('info.daries.rp'),
+                'packageID' => PackageCache::getInstance()->getPackageID('dev.daries.rp'),
                 'languageItemOriginIsSystem' => 1,
             ]
             ]))->executeAction();
